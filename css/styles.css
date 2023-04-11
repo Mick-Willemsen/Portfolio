@@ -1,14 +1,14 @@
 @font-face {
   font-family: CenturyGothic;
-  src: url("/assets/fonts/Century\ Gothic.ttf");
+  src: url("../assets/fonts/Century\ Gothic.ttf");
 }
 @font-face {
   font-family: CloisterBlack;
-  src: url("/assets/fonts/CloisterBlack.ttf");
+  src: url("../assets/fonts/CloisterBlack.ttf");
 }
 @font-face {
   font-family: Monument;
-  src: url("/assets/fonts/MonumentExtended-Regular.otf");
+  src: url("../assets/fonts/MonumentExtended-Regular.otf");
 }
 
 * {
