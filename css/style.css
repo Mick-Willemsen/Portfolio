@@ -1,15 +1,15 @@
 @font-face {
   font-family: Yapari;
-  src: url("/assets/fonts/Yapari-Variable-Trial.ttf");
+  src: url("../assets/fonts/Yapari-Variable-Trial.ttf");
 }
 
 @font-face {
   font-family: NeuePowerA;
-  src: url("/assets/fonts/NeuePowerTrial-Regular.ttf");
+  src: url("../assets/fonts/NeuePowerTrial-Regular.ttf");
 }
 @font-face {
   font-family: NeuePowerB;
-  src: url("/assets/fonts/NeuePowerTrial-BoldOblique.ttf");
+  src: url("../assets/fonts/NeuePowerTrial-BoldOblique.ttf");
 }
 html {
   width: 100vw;
