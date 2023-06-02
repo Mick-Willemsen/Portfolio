@@ -1,0 +1,19 @@
+<svg id="Group_189" data-name="Group 189" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.137" height="109.86" viewBox="0 0 95.137 109.86">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_108" data-name="Rectangle 108" width="95.137" height="109.86" fill="none" stroke="#fff" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_60" data-name="Group 60" transform="translate(0 0)">
+    <g id="Group_59" data-name="Group 59" clip-path="url(#clip-path)">
+      <path id="Path_189" data-name="Path 189" d="M15.841,35.674.736,9.486H30.961" transform="translate(1.495 19.27)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <path id="Path_190" data-name="Path 190" d="M40.932,26.756,25.818,52.931,10.707,26.756" transform="translate(21.749 54.35)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <path id="Path_191" data-name="Path 191" d="M20.678,9.486H50.9L35.789,35.661" transform="translate(42.003 19.269)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <path id="Path_192" data-name="Path 192" d="M46.073.85,68.741,40.115,91.409,79.379H.737l15.1-26.163,7.563-13.1Z" transform="translate(1.496 1.728)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <line id="Line_15" data-name="Line 15" y1="52.35" transform="translate(47.569 54.932)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <line id="Line_16" data-name="Line 16" x1="45.336" y2="26.175" transform="translate(47.57 28.755)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+      <line id="Line_17" data-name="Line 17" x2="45.336" y2="26.175" transform="translate(2.231 28.755)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+    </g>
+  </g>
+  <path id="Path_193" data-name="Path 193" d="M8.214,13.8,30.882,53.068,53.55,13.8Z" transform="translate(16.686 28.039)" fill="none" stroke="#fff" stroke-miterlimit="56" stroke-width="3"/>
+</svg>
