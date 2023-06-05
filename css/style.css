@@ -625,6 +625,12 @@ body.work .container {
     top: 0;
     justify-content: space-between;
   }
+   .top-bar{
+  top: -5%;
+  }
+     .bottom-bar{
+  top: 5%;
+  }
   .bottom-bar.mobile {
     display: flex;
     margin-top: 15%;
