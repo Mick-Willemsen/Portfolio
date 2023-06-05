@@ -628,9 +628,7 @@ body.work .container {
    .top-bar{
   top: -7%;
   }
-     .bottom-bar{
-  top: 2%;
-  }
+
   .bottom-bar.mobile {
     display: flex;
     margin-top: 15%;
