@@ -407,7 +407,7 @@ nav {
   font-family: Yapari;
   text-align: end;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 2.7vw;
   line-height: 1.1;
   color: #fff;
   opacity: 0.3;
@@ -423,7 +423,7 @@ nav {
   font-family: Yapari;
   font-weight: 100;
   font-stretch: wider;
-  font-size: 1.8vw;
+  font-size: 1.2vw;
   text-align: initial;
 }
 .menu__item:hover .menu__item-text {
