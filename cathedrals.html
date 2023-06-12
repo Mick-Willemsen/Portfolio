@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mick Willemsen</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/logo.svg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
     <script src="js/hover.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
@@ -21,81 +22,142 @@ crossorigin="anonymous" defer
 </head>
 <body class="work cathedrals">
 
- <section>
-    <div class="container">
-   <!-- <canvas id="canvas" width="32" height="32"></canvas>
-   <script src="js/functions.js"></script> -->
-
-   <img src="assets/images/Cathedrals_01.png" id="article-cover" alt="">
-    <div class="hero">
-        <!-- <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3480.94 1873.7"><defs><style>.cls-1{fill:#1b1b1b;}</style></defs><g id="Layer_1-2"><path class="cls-1" d="m0,0v1873.7h3480.94V0H0Zm99.22,1458.43c228.85-361.29,348.07-549.05,357.67-563.27,0-.62,21.22-34.59,63.63-101.9,152.03-239.64,232.08-365.64,240.06-377.98,126.76,199.76,193.71,305.54,200.95,317.5l-459.23,725.65H99.22Zm1491.38,0l-261.04-412.47-261.04,412.47h-403.07c228.85-361.29,348.07-549.05,357.67-563.27,0-.62,21.22-34.59,63.63-101.9,152.03-239.64,232.08-365.64,240.06-377.98.92,1.46,1.83,2.89,2.75,4.33.92-1.45,1.83-2.88,2.75-4.33,7.98,12.34,88.03,138.34,240.06,377.98,42.41,67.32,63.63,101.28,63.63,101.9,9.6,14.21,128.82,201.97,357.67,563.27h-403.07Zm844.07-377.98c-152.03,239.64-232.08,365.64-240.06,377.98-.92-1.45-1.83-2.89-2.75-4.33-.92,1.44-1.83,2.88-2.75,4.33-7.98-12.34-88.03-138.34-240.06-377.98-42.41-67.32-63.63-101.28-63.63-101.9-9.6-14.21-128.82-201.97-357.67-563.27h403.07l261.04,412.47,261.04-412.47h403.07c-228.85,361.29-348.07,549.05-357.67,563.27,0,.62-21.22,34.59-63.63,101.9Zm629.08-101.9c0,.62-21.22,34.59-63.63,101.9-152.03,239.64-232.08,365.64-240.06,377.98-126.76-199.76-193.71-305.54-200.95-317.5l459.23-725.65h403.07c-228.85,361.29-348.07,549.05-357.67,563.27Z"/></g></svg> -->
-    
-<h1 id="name">Cathedrals</h1>
-<div id="hero-bottom">
-    <h1 id="folio">Generative Art</h1>
-  
-</div>
-
-<img id="corners-work" src="assets/images/Corners.svg" alt="">
-    </div>
-</div>
-</section>
-<section id="about">
-
-<div class="container">
-    <div class="wrapper">
-    
-    <div class="sidetext">
-        <h1>Assignment</h1>
-      
-        <p>
-            The assignment was as follows: to create a work of generative art that doubles as a music visualisation. 
-        </p>  <p>
-            The generative art was to be developed in Processing, a Java based programming environment and linked up with an Arduino for live controls.
-        </p> 
-    </div>
-    <div class="picture">
-  <img class="work-image" src="assets/images/Cathedrals_02.png" alt="">
-    </div>
-</div>
-</div>
-
-</section>
-<div class="spacer"></div>
-<section id="about">
-
-    <div class="container">
-        <div class="wrapper">
-        <div class="picture">
-            <img class="work-image" src="assets/images/Cathedrals_03.png" alt="">
-        </div>
-        <div class="sidetext mirrored">
-        
-            <h1>Process</h1>
-          
-            <p>
-                Walking through a creative process can be hard. You never really know where you’ll end up. Especially if you have total creative freedom. 
-            </p>  <p>
-                Whilst experimenting I combined two visual styles that interested me, Gothic Architecture and Neon Retrofuturism. 
-            </p> <p>
-Not only did this project open my eyes to creative coding and art inspired visual work it als taught me one thing: Always trust in the process.
-            </p>
-        </div>
-    </div>
-    </div>
-    
-    </section>
-    <section id="about">
-
+    <section class="landing">
         <div class="container">
-            <div class="wrapper">
-                <img class="placeholder" src="assets/images/Cathedrals_04.png" alt="">
-            </div> 
-        <a href="index.html"><img src="assets/images/arrow.svg" alt=""> <p>Back to main page</p></a>
+            <div class="top-bar">
+                    <h1 id="name">Cathedrals</h1>
+            </div>
+               <div class="video-wrapper">
+                   <video autoplay muted loop src="/assets/videos/Cathedrals.mp4"></video>
+               </div>
+                
+            
+            <div class="bottom-bar">
+                    <h1 id="folio">Generative Art</h1>
+            
+            </div>
+            <!-- <img id="corners-work" src="assets/images/Corners.svg" alt=""> -->
         </div>
-     
-        </section>
-    
+            </section>
+        
+            <section id="about">
+        
+                <div class="container">
+                    
+                    <div class="top-bar">
+                        <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                        <h1>Project</h1>
+                     
+                    </div>
+                    <div class="inner-wrapper">
+                      
+<div class="img__wrap">
+    <img class="img__img" src="/assets/images/Cathedrals_01.png" />
+    <!-- <img class="img__img" src="/assets/images/Experiment02.png" /> -->
+    <div class="img__description_layer">
+      <p class="img__description">When you have full creative freedom, even getting started can be tough, this taught me to look within myself for inspiration.</p>
+
+  </div>
+                     
+                        <div class="bottom-bar mobile">
+                        
+                            <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                        </div>
+                        
+                    </div>
+        
+                </div>
+                
+                </section>
+               <div class="container">
+                <div class="inner-wrapper">
+                <h2>Exploration</h2>
+                <p>This project was all about going through a creative process, At the start you really
+                    don't know where you'll end up or how to even begin. The only set goals were that it was
+                    to be a piece of generative art and that it had to be some sort of music visualiser. </p>
+            </div>
+               </div>
+
+
+                <div class="spacer"></div>
+              
+        
+        
+                    <section id="about">
+        
+                        <div class="container">
+                            
+                            <div class="top-bar">
+                                <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                                <h1>Process</h1>
+                           
+                            </div>
+                            <div class="inner-wrapper">
+                              
+        <div class="img__wrap">
+            <div class="experiment cathedrals"></div>
+          
+            <div class="img__description_layer">
+              <p class="img__description">An example of experimentation; a cathedral layered and stamped around at random to create a more interesting visual.</p>
+
+            </div>
+                                <div class="bottom-bar mobile">
+                                    <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                                </div>
+                                
+                            </div>
+                
+                        </div>
+                    
+                    </section>
+                
+                    <div class="container">
+                        <div class="inner-wrapper">
+                        <h2>Ideation</h2>
+                        <p>I started by combining things I found fascinating. Those being Gothic Architecture 
+                            and the neon aesthetic of modern retro nostalgia. I started experimenting in Photoshop and later
+                            tried to replicate those experiments in Java / Processing. </p>
+                    </div>
+                       </div>
+        
+                       <section id="about">
+        
+                        <div class="container">
+                            
+                            <div class="top-bar">
+                                <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                                <h1>Result</h1>
+                           
+                            </div>
+                            <div class="inner-wrapper">
+                              
+        <div class="img__wrap">
+            <img class="img__img" src="/assets/images/Cathedrals_04.png" />
+            <div class="img__description_layer">
+              <p class="img__description">Developing and designing generative art inspired me to try and incorporate more artistic elements in my work. </p>
+
+            </div>
+                                <div class="bottom-bar mobile">
+                                    <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                                </div>
+                                
+                            </div>
+                
+                        </div>
+                    
+                    </section>
+                
+                    <div class="container">
+                        <div class="inner-wrapper">
+                        <h2>Development</h2>
+                        <p>I ended up rasterizing the images in Processing and adding a Neon filter on top to complete the aesthetic I was going for.
+                            I built a small Arduino controller to manipulate the visuals for live VJ-ing, things like color, rasterization, and other functions were added.</p>
+                    </div>
+                    <a href="index.html"><img src="assets/images/arrow.svg" alt=""> <p>Back to main page</p></a>
+                       </div>
+
+                       
+
    <div class="grain"></div>
 </body>
 </html>

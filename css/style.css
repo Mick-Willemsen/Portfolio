@@ -21,7 +21,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: #1b1b1b;
+  background-color: #000;
 }
 .cathedrals {
   background-color: #000;
@@ -118,7 +118,7 @@ body .grain:before {
 #cover {
   width: 100vw;
   height: 100vh;
-  background-color: #1b1b1b;
+  background-color: #000;
   position: absolute;
   top: 0;
   left: 0;
@@ -135,7 +135,7 @@ svg {
 }
 path {
   transition: fill 0.5s;
-  fill: #1b1b1b;
+  fill: #000;
   position: relative;
   z-index: 1;
 }
@@ -144,7 +144,7 @@ path {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  margin: 0 auto;
   width: 60vw;
   max-height: 70vh;
   height: 100%;
@@ -155,7 +155,7 @@ path {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #1b1b1b;
+  background-color: #000;
   position: relative;
   top: 5%;
   z-index: 3;
@@ -173,7 +173,7 @@ path {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #1b1b1b;
+  background-color: #000;
   position: relative;
   top: -5%;
   z-index: 3;
@@ -198,6 +198,13 @@ h1 {
   font-weight: 200;
   font-size: 2vw;
   font-stretch: expanded;
+  color: #fff;
+}
+h2 {
+  font-family: Yapari;
+  font-weight: 200;
+  font-size: 1.5vw;
+  font-weight: bold;
   color: #fff;
 }
 h5 {
@@ -263,6 +270,9 @@ section {
   width: 100%;
   height: 100%;
   display: flex;
+}
+body.work .inner-wrapper {
+  flex-direction: column;
 }
 .image,
 .text {
@@ -407,7 +417,7 @@ nav {
   font-family: Yapari;
   text-align: end;
   font-weight: bold;
-  font-size: 2.7vw;
+  font-size: 3vw;
   line-height: 1.1;
   color: #fff;
   opacity: 0.3;
@@ -423,7 +433,7 @@ nav {
   font-family: Yapari;
   font-weight: 100;
   font-stretch: wider;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   text-align: initial;
 }
 .menu__item:hover .menu__item-text {
@@ -452,6 +462,17 @@ section#contact .top-bar .icon.web {
 a {
   text-decoration: none;
   color: #fff;
+}
+.experiment,
+body.work.maastricht .cover-image {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+}
+.experiment.cathedrals {
+  background-image: url(/assets/images/Experiment01.png);
+  background-position: center;
+  background-size: cover;
 }
 
 #article-cover {
@@ -489,7 +510,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 4;
   pointer-events: none;
 }
 
@@ -501,20 +522,15 @@ a {
   margin-top: 9vh !important;
 }
 
-body.work .hero #folio {
-  font-size: 1.25em;
-}
-
-body.work .wrapper h1 {
-  font-weight: 900;
-  font-stretch: initial;
-}
-body.work .hero #name {
-  font-size: 1.75em;
-}
-
 .sidetext.mirrored {
   margin-left: 1vw;
+}
+
+.video-wrapper {
+  height: 100%;
+}
+video {
+  width: 98%;
 }
 
 a {
@@ -523,12 +539,171 @@ a {
 a p {
   margin-left: 1vw;
 }
-body.work .container {
-  display: block;
+.img__wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.img__img {
+  width: 100%;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+body.work section#about .top-bar h1 {
+  left: 0;
+}
+
+body.work.maastricht .cover-image {
+  background-image: url(/assets/images/Maastricht_01.png);
+}
+body.work .cover-image {
+  height: 100%;
+  width: 97%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-left: 1px;
+}
+body.work.museum .cover-image {
+  background-image: url(/assets/images/Museum_cover.png);
+}
+body.work.maastricht .cover-image {
+  background-image: url(/assets/images/Maastricht_01.png);
+}
+body.work.museum .cover-image {
+  background-image: url(/assets/images/Museum_cover.png);
+}
+body.work.nederland .cover-image {
+  background-image: url(/assets/images/Nederland_06.png);
+}
+body.work.codeventure .cover-image {
+  background-image: url(/assets/images/Codeventure_01.png);
+}
+body.work.maastricht section.landing .bottom-bar h1 {
+  font-size: 1.5vw;
+}
+body.work.museum h1 {
+  font-size: 1.5vw;
+}
+body.work .inner-wrapper {
+  height: auto;
+}
+
+.experiment.maastricht-2 {
+  background-image: url(/assets/images/HCD.png);
+  background-position: center;
+  background-size: cover;
+}
+.experiment.maastricht-3 {
+  background-image: url(/assets/images/Maastricht_03.png);
+  background-position: center;
+  background-size: cover;
+}
+.experiment.maastricht-4 {
+  background-image: url(/assets/images/Maastricht_04.png);
+  background-position: center;
+  background-size: cover;
+}
+.experiment.museum-1 {
+  background-image: url(/assets/images/Museum_01.png);
+  background-position: center;
+  background-size: cover;
+}
+.experiment.museum-2 {
+  background-image: url(/assets/images/Museum_03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.experiment.museum-3 {
+  background-image: url(/assets/images/Museum_02.png);
+  background-position: top;
+  background-size: cover;
+}
+.experiment.nederland-1 {
+  background-image: url(/assets/images/Nederland_03.png);
+  background-position: top;
+  background-size: cover;
+}
+.experiment.nederland-2 {
+  background-image: url(/assets/images/Nederland_07.png);
+  background-position: top;
+  background-size: cover;
+}
+.experiment.nederland-3 {
+  background-image: url(/assets/images/Nederland_04.png);
+  background-position: top;
+  background-size: cover;
+}
+.experiment.codeventure-1 {
+  background-image: url(/assets/images/Codeventure_02.png);
+  background-position: top;
+  background-size: cover;
+}
+.experiment.codeventure-2 {
+  background-image: url(/assets/images/Codeventure_03.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.experiment.codeventure-3 {
+  background-image: url(/assets/images/Codeventure_04.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body.work.nederland section.landing .top-bar h1 {
+  font-size: 1.5vw;
+}
+body.work section {
+  scroll-snap-align: none;
 }
 @media only screen and (max-width: 1024px) {
   .inner-wrapper {
     height: 70%;
+  }
+  .video-wrapper {
+    height: auto;
+  }
+  body.work.maastricht .cover-image,
+  body.work.museum .cover-image,
+  body.work.nederland .cover-image,
+  body.work.codeventure .cover-image {
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -558,13 +733,24 @@ body.work .container {
   .top-bar,
   .bottom-bar {
     align-self: center;
-    width: 95vw;
+    width: 100vw;
   }
   .menu__item-image_wrapper {
     display: none;
   }
   .menu__item-text {
     font-size: 5vw;
+  }
+  .video-wrapper,
+  #corners-work {
+    width: 100vw;
+    height: auto;
+  }
+  body.work .spacer {
+    display: none;
+  }
+  body.work h2 {
+    font-size: 3vw;
   }
 }
 @media only screen and (max-width: 471px) {
@@ -576,6 +762,10 @@ body.work .container {
 @media only screen and (max-width: 425px) {
   html {
     scroll-snap-type: none;
+  }
+
+  body {
+    margin: 0 auto;
   }
   canvas {
     width: 100vw;
@@ -625,10 +815,6 @@ body.work .container {
     top: 0;
     justify-content: space-between;
   }
-   .top-bar{
-  top: -7%;
-  }
-
   .bottom-bar.mobile {
     display: flex;
     margin-top: 15%;
@@ -722,7 +908,7 @@ body.work .container {
   }
 
   p {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
 
   section#contact .sidetext {
@@ -740,24 +926,6 @@ body.work .container {
     width: 100vw;
   }
 
-  body.work .hero #name {
-    text-align: center;
-    font-size: 5.3vw;
-  }
-  body.work .hero #folio {
-    font-size: 1em;
-    text-align: center;
-    display: block;
-  }
-  body.work .wrapper h1 {
-    top: 0;
-    left: 0;
-    text-align: left;
-    font-size: 4vh;
-  }
-  body.work .spacer {
-    height: 10vh;
-  }
   .picture {
     height: auto;
   }
@@ -772,6 +940,60 @@ body.work .container {
   body.work.nederland .hero #name,
   body.work.museum .hero #name {
     margin-top: -3vh;
+  }
+  body.work .landing .top-bar,
+  body.work .landing .bottom-bar {
+    justify-content: center;
+  }
+  body.work .bottom-bar h1 {
+    font-size: 4vw;
+  }
+  body.work .video-wrapper {
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+  }
+  body.work .spacer {
+    display: none;
+  }
+  body.work .bottom-bar {
+    justify-content: flex-end;
+  }
+  body.work h2 {
+    font-size: 5vw;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .experiment.maastricht-4,
+  body.work.maastricht .cover-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+  }
+
+  body.work.maastricht .top-bar h1 {
+    font-size: 4vw;
+  }
+  body.work.maastricht .bottom-bar h1 {
+    font-size: 3vw;
+  }
+
+  body.work.museum .cover-image,
+  body.work.codeventure .cover-image {
+    min-height: 200px;
+  }
+  body.work.museum .top-bar h1 {
+    font-size: 3vw;
+  }
+  body.work.nederland section.landing .top-bar h1 {
+    font-size: 3vw;
+  }
+  body.work.codeventure section.landing .top-bar h1 {
+    font-size: 4.4vw;
+  }
+  body.work.codeventure section.landing .bottom-bar h1 {
+    font-size: 3.4vw;
   }
 }
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mick Willemsen</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/logo.svg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
     <script src="js/hover.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
@@ -21,85 +22,153 @@ crossorigin="anonymous" defer
 </head>
 <body class="work museum">
 
- <section>
-    <div class="container">
-   <!-- <canvas id="canvas" width="32" height="32"></canvas>
-   <script src="js/functions.js"></script> -->
-   <!-- <div id="cover"></div> -->
-   <img src="assets/images/Cathedrals_01.png" id="article-cover" alt="">
-    <div class="hero">
-        <!-- <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3480.94 1873.7"><defs><style>.cls-1{fill:#1b1b1b;}</style></defs><g id="Layer_1-2"><path class="cls-1" d="m0,0v1873.7h3480.94V0H0Zm99.22,1458.43c228.85-361.29,348.07-549.05,357.67-563.27,0-.62,21.22-34.59,63.63-101.9,152.03-239.64,232.08-365.64,240.06-377.98,126.76,199.76,193.71,305.54,200.95,317.5l-459.23,725.65H99.22Zm1491.38,0l-261.04-412.47-261.04,412.47h-403.07c228.85-361.29,348.07-549.05,357.67-563.27,0-.62,21.22-34.59,63.63-101.9,152.03-239.64,232.08-365.64,240.06-377.98.92,1.46,1.83,2.89,2.75,4.33.92-1.45,1.83-2.88,2.75-4.33,7.98,12.34,88.03,138.34,240.06,377.98,42.41,67.32,63.63,101.28,63.63,101.9,9.6,14.21,128.82,201.97,357.67,563.27h-403.07Zm844.07-377.98c-152.03,239.64-232.08,365.64-240.06,377.98-.92-1.45-1.83-2.89-2.75-4.33-.92,1.44-1.83,2.88-2.75,4.33-7.98-12.34-88.03-138.34-240.06-377.98-42.41-67.32-63.63-101.28-63.63-101.9-9.6-14.21-128.82-201.97-357.67-563.27h403.07l261.04,412.47,261.04-412.47h403.07c-228.85,361.29-348.07,549.05-357.67,563.27,0,.62-21.22,34.59-63.63,101.9Zm629.08-101.9c0,.62-21.22,34.59-63.63,101.9-152.03,239.64-232.08,365.64-240.06,377.98-126.76-199.76-193.71-305.54-200.95-317.5l459.23-725.65h403.07c-228.85,361.29-348.07,549.05-357.67,563.27Z"/></g></svg> -->
-    
-<h1 id="name">Museum Prototypes</h1>
-<div id="hero-bottom">
-    <h1 id="folio">User Experience</h1>
-  
-</div>
-
-<img id="corners-work" src="assets/images/Corners.svg" alt="">
-    </div>
-</div>
-</section>
-<section id="about">
-
-<div class="container">
-    <div class="wrapper">
-    
-    <div class="sidetext">
-        <h1>About</h1>
-      
-        <p>Hi, my name is Mick Willemsen
-            I study <b> Communication and Multimedia Design</b> in Maastricht, the Netherlands. 
-        </p>  <p>
-            <b>Designer / Developer</b> with a <b>UX Mindset</b>. Aesthetically driven with a devotion to
-            immersion and always eager to learn something new.
-        </p> <p>
-            I turn <b>ideas</b> into <b>experiences</b> using technology as a medium for <b>expression</b>.
-        </p>
-    </div>
-    <div class="picture">
-  <img class="work-image" src="assets/images/Cathedrals_02.png" alt="">
-    </div>
-</div>
-</div>
-
-</section>
-<div class="spacer"></div>
-<<section id="about">
-
-    <div class="container">
-        <div class="wrapper">
-        <div class="picture">
-            <img class="work-image" src="assets/images/Cathedrals_03.png" alt="">
-        </div>
-        <div class="sidetext mirrored">
-        
-            <h1>About</h1>
-          
-            <p>Hi, my name is Mick Willemsen
-                I study <b> Communication and Multimedia Design</b> in Maastricht, the Netherlands. 
-            </p>  <p>
-                <b>Designer / Developer</b> with a <b>UX Mindset</b>. Aesthetically driven with a devotion to
-                immersion and always eager to learn something new.
-            </p> <p>
-                I turn <b>ideas</b> into <b>experiences</b> using technology as a medium for <b>expression</b>.
-            </p>
-        </div>
-    </div>
-    </div>
-    
-    </section>
-    <section id="about">
-
+    <section class="landing">
         <div class="container">
-            <div class="wrapper">
-                <img class="placeholder" src="assets/images/Cathedrals_04.png" alt="">
-            </div> 
-        <a href="index.html"><img src="assets/images/arrow.svg" alt=""> <p>Back to main page</p></a>
+            <div class="top-bar">
+                    <h1 id="name">Museum Prototypes</h1>
+            </div>
+               <div class="video-wrapper">
+                   <div class="cover-image"></div>
+               </div>
+                
+            
+            <div class="bottom-bar">
+                    <h1 id="folio">UX Design</h1>
+            
+            </div>
+            <!-- <img id="corners-work" src="assets/images/Corners.svg" alt=""> -->
         </div>
-     
-        </section>
-    
+            </section>
+        
+            <section id="about">
+        
+                <div class="container">
+                    
+                    <div class="top-bar">
+                        <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                        <h1>Project</h1>
+                     
+                    </div>
+                    <div class="inner-wrapper">
+                      
+<div class="img__wrap">
+    <div class="experiment museum-1"></div>
+    <!-- <img class="img__img" src="/assets/images/Experiment02.png" /> -->
+    <div class="img__description_layer">
+      <p class="img__description">This was a very conceptual project during the time where AI services like Midjourney and ChatGPT went mainstream. 
+          Ofcourse we experimented with it for a prototype, to get an idea for what the visuals might be like. I can't recommend using it for something official though. </p>
+
+  </div>
+                     
+                        <div class="bottom-bar mobile">
+                        
+                            <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                        </div>
+                        
+                    </div>
+        
+                </div>
+                
+                </section>
+               <div class="container">
+                <div class="inner-wrapper">
+                <h2>Exploration</h2>
+                <p>
+                    A project for Centre Ceramique (soon Museum Maastricht), a museum in Maastricht. 
+                    They have a beautiful collection of both pre-historic as well as bronze-age relics. 
+                    There's many stories to be told, but no one there to experience them. In a team of 4 we 
+                    set out to develop a user experience to make ancient history more engaging.
+                     </p>
+            </div>
+               </div>
+
+
+                <div class="spacer"></div>
+              
+        
+        
+                    <section id="about">
+        
+                        <div class="container">
+                            
+                            <div class="top-bar">
+                                <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                                <h1>Process</h1>
+                           
+                            </div>
+                            <div class="inner-wrapper">
+                              
+        <div class="img__wrap">
+            <div class="experiment museum-2"></div>
+          
+            <div class="img__description_layer">
+              <p class="img__description">The aim was to really create an experience. Incorporating various senses, immersion, interaction. 
+                During the process we held interviews, researched the subject matter and came up with several ideas. 
+                An important guideline was the 5E model. Utilising this we crafted the experience all the way from the
+                initial Excitement to the Extension, a reason to visit again.</p>
+
+            </div>
+                                <div class="bottom-bar mobile">
+                                    <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                                </div>
+                                
+                            </div>
+                
+                        </div>
+                    
+                    </section>
+                
+                    <div class="container">
+                        <div class="inner-wrapper">
+                        <h2>Ideation</h2>
+                        <p>As a team we decided to focus on the importance of Ceramics. Since their creation ushered in the first farms and villages. A sustainable way of life.
+                            We wanted to do something with a pot since the ceramic's look, technique and quality changed a lot for various reasons. It was also a lot more accessible 
+                            which is really important because you want to reach as many people as possible.
+                        </p>
+                    </div>
+                       </div>
+        
+                       <section id="about">
+        
+                        <div class="container">
+                            
+                            <div class="top-bar">
+                                <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                                <h1>Result</h1>
+                           
+                            </div>
+                            <div class="inner-wrapper">
+                              
+        <div class="img__wrap">
+            <div class="experiment museum-3"></div>
+            <div class="img__description_layer">
+              <p class="img__description">The virtual prototype really gave a sense of immersion during testing. The combination of both a physical prototype and a virtual prototype really 
+                  painted the picture for a lot of users and they ended up being very enthused by our concept. </p>
+
+            </div>
+                                <div class="bottom-bar mobile">
+                                    <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                                </div>
+                                
+                            </div>
+                
+                        </div>
+                    
+                    </section>
+                
+                    <div class="container">
+                        <div class="inner-wrapper">
+                        <h2>Development</h2>
+                        <p>
+                            We developed both a physical and virtual prototype. Both of them representing this cave chamber 
+                            where the user could spin a clay pot in the middle that would then change the scenery around them in the cave.
+                            This way, by turning the pot they would gradually learn about the importance of ceramics in the neolithic era.</p>
+                    </div>
+                    <a href="index.html"><img src="assets/images/arrow.svg" alt=""> <p>Back to main page</p></a>
+                       </div>
+
+                       
+
    <div class="grain"></div>
 </body>
 </html>
