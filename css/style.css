@@ -783,13 +783,12 @@ body.work section {
     width: 100vw !important;
     height: auto;
   }
-  .hero #name {
-    width: 100%;
-    position: absolute;
-    top: 33%;
-  }
+
   h1 {
     font-size: 5.3vw;
+  }
+  section.landing .top-bar h1{
+  margin-bottom: 20px;
   }
   section#about .top-bar h1,
   section#work .top-bar h1,
