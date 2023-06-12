@@ -812,12 +812,10 @@ body.work section {
   .top-bar,
   .bottom-bar {
     width: 100vw;
-    top: 0;
+    top: 0 !important;
     justify-content: space-between;
   }
-.top-bar{
-  margin-top: -3%;
-  }
+
   .bottom-bar.mobile {
     display: flex;
     margin-top: 15%;
