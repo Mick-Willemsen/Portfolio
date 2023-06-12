@@ -157,6 +157,7 @@ path {
   align-items: center;
   background-color: #000;
   position: relative;
+top: 5%;
   z-index: 3;
 }
 
@@ -813,6 +814,9 @@ body.work section {
     width: 100vw;
     top: 0;
     justify-content: space-between;
+  }
+.top-bar{
+  margin-top: -3%;
   }
   .bottom-bar.mobile {
     display: flex;
