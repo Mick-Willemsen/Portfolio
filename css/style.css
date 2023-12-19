@@ -41,7 +41,7 @@ canvas {
   height: 100%;
   position: absolute;
   max-height: 40vh;
-  max-width: 59vw;
+  max-width: 59vw !important;
 }
 .feature {
   z-index: 1;
