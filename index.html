@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.documentElement.classList.add('is-loading');</script>
+    <title>Mick Willemsen</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/logo.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+    <script src="js/hover.js" defer></script>
+    <script src="js/landing-gallery.js" defer></script>
+    <script src="js/loader.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+<script src="https://unpkg.com/@barba/core" defer></script>
+
+<script
+src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+crossorigin="anonymous" defer
+></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <div class="site-loader" role="status" aria-live="polite" aria-label="Loading website">
+        <div class="site-loader__inner">
+            <div class="site-loader__bar">
+                <div class="site-loader__bar-fill"></div>
+            </div>
+            <p class="site-loader__progress">Loading 0%</p>
+        </div>
+    </div>
+
+    <section class="landing">
+        <div class="landing-gallery">
+            <div class="landing-gallery__header">
+                <div class="landing-gallery__title-card">
+                    <h1>Mick Willemsen</h1>
+                    <p class="landing-gallery__subtitle">Emerging Artists 2026</p>
+                </div>
+            </div>
+            <div class="landing-gallery__track">
+                <div class="landing-gallery__item landing-gallery__item--text landing-gallery__item--intro" data-caption="Exhibition introduction">
+                    <video src="assets/videos/Closed-Eye-World.webm" autoplay muted loop playsinline preload="auto"></video>
+                    <div class="landing-gallery__textpanel">
+                        <p class="landing-gallery__textpanel-kicker">Emerging Artists 2026</p>
+                        <p>
+                            Exhibition at The Social Hub, Maastricht, from March 18th to April 12th with a walk-in workshop and artist talk on March 20th. Scroll down to explore the exhibition.
+                        </p>
+                    </div>
+                </div>
+                <div class="landing-gallery__item">
+                    <a href="a-world-of-closed-eyes.html" class="landing-gallery__item-link" aria-label="Open A World of Closed Eyes case page">
+                        <img src="assets/images/ClosedEyes_3.png" alt="A World of Closed Eyes">
+                        <div class="landing-gallery__card">
+                            <p class="landing-gallery__card-title">A World of Closed Eyes</p>
+                            <p class="landing-gallery__card-subtitle">Audiovisual Installation outputs, 2025</p>
+                            <span class="landing-gallery__card-link">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="landing-gallery__item">
+                    <a href="growth.html" class="landing-gallery__item-link" aria-label="Open Growth case page">
+                        <img src="assets/images/Growth_01.png" alt="Growth">
+                        <div class="landing-gallery__card">
+                            <p class="landing-gallery__card-title">Growth</p>
+                            <p class="landing-gallery__card-subtitle">Generative art, 2026</p>
+                            <span class="landing-gallery__card-link">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="landing-gallery__item">
+                    <a href="cathedrals.html" class="landing-gallery__item-link" aria-label="Open Cathedrals case page">
+                        <img src="assets/images/Cathedrals_01.png" alt="Cathedrals">
+                        <div class="landing-gallery__card">
+                            <p class="landing-gallery__card-title">Cathedrals</p>
+                            <p class="landing-gallery__card-subtitle">Generative Art, 2022</p>
+                            <span class="landing-gallery__card-link">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="landing-gallery__item landing-gallery__item--contain landing-gallery__item--timeline">
+                    <a href="about-the-artist.html" class="landing-gallery__item-link" aria-label="Open About the Artist case page">
+                        <video src="assets/videos/Timeline 1.mp4" autoplay muted loop playsinline preload="auto"></video>
+                        <div class="landing-gallery__card">
+                            <p class="landing-gallery__card-title">About the Artist</p>
+                            <span class="landing-gallery__card-link">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="landing-gallery__item">
+                    <a href="other-work.html" class="landing-gallery__item-link" aria-label="Open Other Work case page">
+                        <img src="assets/images/Lightbloom.jpg" alt="Other Work">
+                        <div class="landing-gallery__card">
+                            <p class="landing-gallery__card-title">Other Work</p>
+                            <p class="landing-gallery__card-subtitle">View more work not part of the exhibition</p>
+                            <span class="landing-gallery__card-link">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="landing-gallery__mobile-end-spacer" aria-hidden="true"></div>
+            </div>
+            <div class="landing-gallery__line-wrap">
+                <div class="landing-gallery__banner landing-gallery__banner--desktop" aria-label="Announcement banner">
+                    <div class="teaser-banner__track">
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                        <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                    </div>
+                </div>
+                <div class="landing-gallery__line" aria-hidden="true">
+                    <div class="landing-gallery__indicator"></div>
+                </div>
+                <div class="landing-gallery__meta">
+                    <div class="landing-gallery__meta-primary">
+                        <div class="landing-gallery__banner landing-gallery__banner--mobile" aria-label="Announcement banner">
+                            <div class="teaser-banner__track">
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                                <span>March 18th - April 12th, The Social Hub, Maastricht</span>
+                            </div>
+                        </div>
+                        <p class="landing-gallery__prompt">Hover or scroll to explore</p>
+                    </div>
+                    <p class="landing-gallery__active-label" aria-live="polite"></p>
+                    <div class="landing-gallery__contact">
+                        <a href="mailto:hello@mickwillemsen.com">Email</a>
+                        <a href="https://www.linkedin.com/in/mick-willemsen-3a2a88271/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://www.instagram.com/mickwillemsen.design/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEMP: non-landing sections hidden while tuning gallery
+    <section id="about">
+
+        <div class="container">
+            
+            <div class="top-bar">
+                <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                <h1>About</h1>
+                <img src="/assets/images/Cube.svg" class="icon web"  alt="">
+            </div>
+            <div class="inner-wrapper">
+                <div class="image">
+                    <img class="web" src="/assets/images/Portrait.png" alt="">
+                    <img class="mobile" src="/assets/images/Me_MBL.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Hi, my name is Mick Willemsen</p>
+                      <p>  I study <b> Communication and Multimedia Design</b> in Maastricht, the Netherlands. 
+                    </p> 
+                     <p>
+                        <b>Designer / Developer</b> with a <b>UX Mindset</b>. Aesthetically driven with a devotion to
+                        immersion and always eager to learn something new.
+                    </p>
+                     <p>
+                        I turn <b>ideas</b> into <b>experiences</b> using technology as a medium for <b>expression</b>.
+                    </p>
+                </div>
+                <div class="bottom-bar mobile">
+                    <img src="/assets/images/Cube.svg" class="icon mobile"  alt="">
+                    <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+        </section>
+        <div class="spacer"></div>
+        <section id="work">
+
+            <div class="container">
+                
+                <div class="top-bar">
+                    <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                    <h1>Work</h1>
+                    <img src="/assets/images/Dodeca.svg" class="icon web"  alt="">
+                </div>
+                <div class="inner-wrapper">
+                    <div class="workmenu">
+                        <div class="work-container">
+                            <nav class="menu">
+                                <div class="menu__item">
+                                    <div class="menu__item-image_wrapper">
+                                        <div class="menu__item-image_inner">
+                                            <img src="assets/images/church.gif" alt="" class="menu__item-image">
+                                        </div>
+                                    </div>
+                                    <span class="menu__item-text">
+                                    <a href="/i-close-my-eyes-in-the-dark.html">   <span class="menu__item-innertext">I close my eyes in the dark</span></a>
+                                        
+                                        <span class="menu__item-subtext">Generative Art</span>
+                                    </span>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-image_wrapper">
+                                        <div class="menu__item-image_inner">
+                                            <img src="assets/images/HCD.png" alt="" class="menu__item-image">
+                                        </div>
+                                    </div>
+                                    <a href="/the-window.html">
+                                    <span class="menu__item-text">
+                                       
+                                        <span class="menu__item-innertext">The Window</span>
+                                        <span class="menu__item-subtext">Graphic Design / User Experience </span>
+                                    </span></a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-image_wrapper">
+                                        <div class="menu__item-image_inner">
+                                            <img src="assets/images/NederBeter2.png" alt="" class="menu__item-image">
+                                        </div>
+                                    </div>
+                                    <a href="/the-book-of-franz-bock.html">
+                                    <span class="menu__item-text">
+                                        <span class="menu__item-innertext">The Book of Franz Bock</span>
+                                        <span class="menu__item-subtext">Storytelling</span>
+                                    </span></a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-image_wrapper">
+                                        <div class="menu__item-image_inner">
+                                            <img src="assets/images/C4K.png" alt="" class="menu__item-image">
+                                        </div>
+                                    </div>
+                                    <a href="/cathedrals.html">
+                                    <span class="menu__item-text">
+                                        <span class="menu__item-innertext">Cathedrals</span>
+                                        <span class="menu__item-subtext">Branding </span>
+                                    </span></a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="bottom-bar mobile">
+                        <img src="/assets/images/Dodeca.svg" class="icon mobile"  alt="">
+                        <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <div class="container">
+                
+                <div class="top-bar">
+                    <img class="mobile-corner-top" src="/assets/images/Corner_mobile_top.svg" alt="">
+                    <h1>Contact</h1>
+                    <img src="/assets/images/Tetra2.svg" class="icon web"  alt="">
+                </div>
+                <div class="inner-wrapper">
+                    <div class="image">
+                        </div>
+                    <div class="text">
+                        <p>Mick-Willemsen@outlook.com</p>
+                
+                        <a href="https://www.linkedin.com/in/mick-willemsen-3a2a88271/"><p>LinkedIn</p></a>
+                    </div>
+                    <div class="bottom-bar mobile">
+                        <img src="/assets/images/Tetra2.svg" class="icon mobile"  alt="">
+                        <img class="mobile-corner-bot" src="/assets/images/Corner_mobile_bot.svg" alt="">
+                    </div>
+                    
+                </div>
+    
+            </div>
+            
+            </section>
+        
+        
+    -->
+
+    <div class="grain"></div>
+</body>
+</html>
